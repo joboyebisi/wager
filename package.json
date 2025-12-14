@@ -8,7 +8,8 @@
     "vercel-build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "preinstall": "rm -rf node_modules || true"
+    "preinstall": "rm -rf node_modules || true",
+    "postinstall": "node -e \"try { require('next/package.json'); console.log('Next.js installed'); } catch(e) { console.error('Next.js not found'); process.exit(1); }\""
   },
   "dependencies": {
     "@circle-fin/developer-controlled-wallets": "^1.2.1",
