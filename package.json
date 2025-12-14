@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx next build",
-    "vercel-build": "npx next build",
+    "build": "next build",
+    "vercel-build": "next build",
     "start": "next start",
     "lint": "next lint",
     "preinstall": "rm -rf node_modules || true"
