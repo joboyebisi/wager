@@ -1,7 +1,7 @@
 [build]
-  # Install dependencies, then build
+  # Install dependencies, then build using explicit path fallback
   # The plugin handles deployment/routing after build
-  command = "npm install --legacy-peer-deps --force && npm run build"
+  command = "npm install --legacy-peer-deps --force && npm run netlify-build"
 
 [build.environment]
   NODE_VERSION = "20"

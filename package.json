@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "netlify-build": "node node_modules/next/dist/bin/next build || next build",
     "vercel-build": "next build",
     "start": "next start",
     "lint": "next lint",
