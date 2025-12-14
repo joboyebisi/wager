@@ -1,7 +1,7 @@
 [build]
-  # Let @netlify/plugin-nextjs handle the build automatically
-  # It will install dependencies and run next build
-  command = "npm install --legacy-peer-deps --force"
+  # Install dependencies, then build
+  # The plugin handles deployment/routing after build
+  command = "npm install --legacy-peer-deps --force && npm run build"
 
 [build.environment]
   NODE_VERSION = "20"
