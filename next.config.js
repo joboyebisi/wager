@@ -11,6 +11,10 @@ const nextConfig = {
     NEXT_PUBLIC_SUPABASE_URL: process.env.NEXT_PUBLIC_SUPABASE_URL,
     NEXT_PUBLIC_SUPABASE_ANON_KEY: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
   },
+  // Disable static optimization for error pages to avoid Html import issues
+  generateBuildId: async () => {
+    return 'build-' + Date.now();
+  },
   // Vercel deployment optimizations
   // Note: 'standalone' output is not needed for Vercel (it auto-detects Next.js)
   experimental: {
