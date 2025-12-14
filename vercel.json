@@ -1,0 +1,5 @@
+{
+  "framework": "nextjs",
+  "installCommand": "rm -rf node_modules .next && npm install --legacy-peer-deps --force"
+}
+
