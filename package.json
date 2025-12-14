@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "vercel-build": "next build",
+    "build": "npx next build",
+    "vercel-build": "npx next build",
     "start": "next start",
     "lint": "next lint",
     "preinstall": "rm -rf node_modules || true"
@@ -26,7 +26,7 @@
     "axios": "^1.6.7",
     "date-fns": "^3.3.1",
     "ethers": "^6.11.1",
-    "next": "15.5.7",
+    "next": "15.5.8",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "zod": "^3.22.4",
