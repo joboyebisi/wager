@@ -1,0 +1,62 @@
+# ============================================
+# Netlify Environment Variables Template
+# Copy this file and rename to netlify-env-vars.txt
+# Fill in your actual values (DO NOT commit to git)
+# ============================================
+
+# ============================================
+# Wallet & Authentication
+# ============================================
+NEXT_PUBLIC_PRIVY_APP_ID=your_privy_app_id
+NEXT_PUBLIC_PRIVY_APP_SECRET=your_privy_app_secret
+
+# ============================================
+# Blockchain Configuration
+# ============================================
+NEXT_PUBLIC_BNB_CHAIN_ID=97
+NEXT_PUBLIC_RPC_URL=https://bsc-testnet-rpc.publicnode.com/
+NEXT_PUBLIC_WAGER_CONTRACT_ADDRESS=0xd8D86eCc3d2EFb0939611926c80DC8917440d776
+
+# ============================================
+# AI Services
+# ============================================
+NEXT_PUBLIC_PERPLEXITY_API_KEY=your_perplexity_api_key
+NEXT_PUBLIC_DEEPSEEK_API_KEY=your_deepseek_api_key
+
+# ============================================
+# Data Verification APIs
+# ============================================
+NEXT_PUBLIC_COINMARKETCAP_API_KEY=your_coinmarketcap_api_key
+
+# ============================================
+# Memory & Storage (Supabase - Primary)
+# ============================================
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
+
+# ============================================
+# Telegram Bot (for commands)
+# ============================================
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+TELEGRAM_WEBHOOK_URL=https://your-site.netlify.app/api/telegram/webhook
+NEXT_PUBLIC_APP_URL=https://your-site.netlify.app
+
+# ============================================
+# Server-side
+# ============================================
+PRIVATE_KEY=your_private_key
+
+# ============================================
+# Development
+# ============================================
+NODE_ENV=production
+
+# ============================================
+# Circle (Optional - for Circle wallets)
+# ============================================
+CIRCLE_API_KEY=your_circle_api_key
+CIRCLE_ENTITY_ID=your_circle_entity_id
+CIRCLE_ENTITY_SECRET=your_circle_entity_secret
+CIRCLE_ENVIRONMENT=sandbox
+
