@@ -1,6 +1,6 @@
 [build]
-  command = "npm install --legacy-peer-deps --force"
-  publish = ".next"
+  command = "npm install --legacy-peer-deps --force && npm run build"
+  # publish is managed by @netlify/plugin-nextjs - don't set it manually
 
 [build.environment]
   NODE_VERSION = "22"
