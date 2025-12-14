@@ -8,7 +8,8 @@
     "vercel-build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "preinstall": "rm -rf node_modules || true"
+    "preinstall": "rm -rf node_modules || true",
+    "postinstall": "echo 'Dependencies installed'"
   },
   "dependencies": {
     "@circle-fin/developer-controlled-wallets": "^1.2.1",
